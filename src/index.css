@@ -9,6 +9,7 @@
   margin: 0;
 }
 body {
+  font-family: 'Montserrat';
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -24,4 +25,24 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #root, #__next {
   isolation: isolate;
+}
+li {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url(fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(fonts/Montserrat-Regular.ttf);
 }

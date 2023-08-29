@@ -1,0 +1,9 @@
+.Nav{
+	display: flex;
+}
+
+.Nav-ul{
+	display: flex;
+	gap: 60px;
+	padding: 0;
+}
