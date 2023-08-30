@@ -1,0 +1,22 @@
+.Goals{
+	margin: 8.13rem 0 0 0;
+	display: flex;
+	gap: 5.63rem;
+}
+
+.Goals-list{
+	margin: 4rem 0 0 0;
+	display: flex;
+	flex-direction: column;
+	gap: 3.75rem;
+}
+
+.Goals-li{
+	list-style-image: url("../src/assets/icons/note-list.svg");
+	padding: 0 0 0 20px;
+}
+
+.Goals-img{
+	height: 700px;
+	border-radius: 10px;
+}
