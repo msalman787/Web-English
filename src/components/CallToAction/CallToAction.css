@@ -1,0 +1,31 @@
+.Call{
+	margin: var(--margin-components) 0 0 0;
+	padding: 2.75rem 7rem 0 7rem;
+	width: 100%;
+	height: 582px;
+	background-color: var(--color-secondary);
+
+	display: flex;
+	justify-content: space-between;
+
+	border-radius: var(--border-secondary);
+}
+
+.Call-section{
+	margin: 100px 0 0 0;
+	width: 560px;
+}
+
+.Call-section--p{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.Call-section--button{
+	margin: 2.5rem 0 0 0;
+}
+
+/* .Call-img{
+	margin: 0 5.63rem 0 0;
+} */

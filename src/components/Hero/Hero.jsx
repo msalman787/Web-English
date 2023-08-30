@@ -4,9 +4,9 @@ import './Hero.css'
 export function Hero () {
   return (
     <section className='Hero'>
-      <h2 className='Hero-h2'>
+      <p className='Hero-p'>
         Explora el mundo a través del ingles: Aprende, conecta, crece.
-      </h2>
+      </p>
       <video className='Hero-video'>
         <source src='#' />
       </video>

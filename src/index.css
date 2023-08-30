@@ -2,6 +2,19 @@
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
+
+:root{
+  --color-primary: #FFF;
+  --color-secondary: #245CE9;
+  --color-tertiary: #F8F8F8;
+
+  --border-primary: 10px;
+  --border-secondary: 15px;
+
+
+  --margin-components: 8.75rem;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }

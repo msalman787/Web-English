@@ -9,7 +9,7 @@ export function Header () {
     <header className='Header'>
       <Logo />
       <NavBar />
-      <Button text='HABLEMOS' />
+      <Button text='HABLEMOS' color />
     </header>
   )
 }
