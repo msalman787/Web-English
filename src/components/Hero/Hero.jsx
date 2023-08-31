@@ -1,12 +1,13 @@
 import React from 'react'
 import './Hero.css'
+import { Titles } from '../Titles/Titles'
 
 export function Hero () {
   return (
     <section className='Hero'>
-      <h2 className='Hero-h2'>
-        Explora el mundo a través del ingles: Aprende, conecta, crece.
-      </h2>
+      <div className='Hero-h2'>
+        <Titles title='Explora el mundo a través del ingles: Aprende, conecta, crece.' />
+      </div>
       <video className='Hero-video'>
         <source src='#' />
       </video>

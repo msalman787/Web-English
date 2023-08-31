@@ -58,3 +58,7 @@ a{
   font-family: 'Montserrat';
   src: url(fonts/Montserrat-Regular.ttf);
 }
+@font-face {
+  font-family: 'MontserratBold';
+  src: url(fonts/Montserrat-Bold.ttf);
+}

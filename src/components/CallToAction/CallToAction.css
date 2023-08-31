@@ -8,11 +8,11 @@
 	display: flex;
 	justify-content: space-between;
 
-	border-radius: var(--border-secondary);
+	border-radius: var(--border-radius-secondary);
 }
 
 .Call-section{
-	margin: 100px 0 0 0;
+	margin: 3.63rem 0 0 0;
 	width: 560px;
 }
 
