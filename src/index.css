@@ -1,18 +1,17 @@
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root{
   --color-primary: #FFF;
   --color-secondary: #245CE9;
   --color-tertiary: #F8F8F8;
 
-  --border-primary: 10px;
-  --border-secondary: 15px;
+  --border-radius-primary: 10px;
+  --border-radius-secondary: 15px;
 
 
-  --margin-components: 8.75rem;
+  --margin-sections: 8.75rem;
 }
 
 *, *::before, *::after {

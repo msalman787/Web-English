@@ -6,9 +6,9 @@ export function Goals () {
   return (
     <section className='Goals'>
       <section className='Goals-list'>
-        <p>
+        <h2>
           ¡Atrévete a explorar nuevas oportunidades y alcanzar tus metas aprendiendo inglés!
-        </p>
+        </h2>
         <ul className='Goals-ul'>
           <li className='Goals-li'>Al ser considerado el idioma universal de la comunicación, aprender inglés te permitirá conectar con personas de diferentes culturas y países alrededor del mundo.</li>
           <li className='Goals-li'>Muchos recursos y conocimientos en áreas como la ciencia, tecnología, investigación y entretenimiento están en inglés, por lo que aprender el idioma te dará acceso a ellos.</li>

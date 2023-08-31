@@ -1,0 +1,11 @@
+.Stage{
+	display: flex;
+	flex-direction: column;
+
+	background-color: var(--color-tertiary) ;
+
+	min-width: 413px;
+	min-height: 394px;
+	border-radius: var(--border-radius-primary);
+	padding: 1.875rem;
+}
