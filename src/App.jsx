@@ -1,3 +1,4 @@
+import About from './components/About/About.jsx'
 import { CallToAction } from './components/CallToAction/CallToAction.jsx'
 import { Goals } from './components/Goals/Goals.jsx'
 import { Hero } from './components/Hero/Hero.jsx'
@@ -12,6 +13,7 @@ export default function App () {
         <Goals />
         <CallToAction />
         <Stages />
+        <About />
       </Layout>
     </>
   )
