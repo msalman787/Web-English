@@ -10,9 +10,10 @@
 
 .Hero-video{
 	width: 100%;
-	background-color: rgb(156, 156, 81);
 	border-radius: 10px 10px 0px 0px;
 	max-height: 37.5rem;
+	object-fit: cover;
+	object-position: center center;
 }
 
 .Hero-after{
