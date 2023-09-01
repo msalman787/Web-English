@@ -62,5 +62,20 @@ export const data = {
 			title: "Can and Can't",
 			description: 'Aprende sobre Puedo y No Puedo, la seccion mas grande del curso. Aprende sobre la cuarta evolución de pronombres, Animales y mucho mas. con un total de 34 secciones para completar la seccion 12.'
 		}
+	],
+	comments: [
+		{
+			id: 1,
+			comment: 'Kristian enfoca sus clases en las necesidades del alumno. ya que sus clases son personalizadas y te explica con muy buenos ejemplos si no entiendes algo y el ambiente durante la clase favorece el aprendizaje. ademas maneja muy bien el español por si hay que explicar algo en profundidad',
+			user: 'Regis Wilson',
+			ocupation: 'Ingeniero'
+		},
+		{
+			id: 1,
+			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
+			user: 'Emma Watson',
+			ocupation: 'Ceo'
+		}
+
 	]
 }

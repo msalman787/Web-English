@@ -1,0 +1,30 @@
+.Stories{
+	margin: var(--margin-sections) 0 0 0;
+
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	gap: 6.94rem;
+}
+.Stories-left{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.Stories-p{
+	width: 100%;
+}
+.Stories-button{
+	margin: 4.75rem 0 0 0 ;
+}
+
+
+.Stories-right{
+	width: 59%;
+	display: flex;
+	flex-direction: column;
+	gap: 3.125rem;
+}
+
