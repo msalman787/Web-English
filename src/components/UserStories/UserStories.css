@@ -1,17 +1,15 @@
 .Stories{
 	margin: var(--margin-sections) 0 0 0;
-
 	width: 100%;
 
-	display: flex;
-	flex-direction: row;
-	gap: 6.94rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 .Stories-left{
-	width: 50%;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	width: 80%;
 }
 .Stories-p{
 	width: 100%;
@@ -20,9 +18,7 @@
 	margin: 4.75rem 0 0 0 ;
 }
 
-
 .Stories-right{
-	width: 59%;
 	display: flex;
 	flex-direction: column;
 	gap: 3.125rem;

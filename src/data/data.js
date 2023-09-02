@@ -71,11 +71,36 @@ export const data = {
 			ocupation: 'Ingeniero'
 		},
 		{
-			id: 1,
+			id: 2,
 			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
 			user: 'Emma Watson',
 			ocupation: 'Ceo'
 		}
-
+	],
+	plans: [
+		{
+			id: 1,
+			price: 8.5,
+			name: 'Classic plan',
+			description: 'Lorem ipsum dolor sit amet',
+			benefits: ['lorem', 'lorem', 'lorem'],
+			url: ''
+		},
+		{
+			id: 2,
+			price: 97,
+			name: 'Platinum Package Plan',
+			description: 'Lorem ipsum dolor sit amet',
+			benefits: ['lorem', 'lorem', 'lorem'],
+			url: ''
+		},
+		{
+			id: 3,
+			price: 10,
+			name: 'Basic plan',
+			description: 'Lorem ipsum dolor sit amet',
+			benefits: ['lorem', 'lorem', 'lorem'],
+			url: ''
+		}
 	]
 }

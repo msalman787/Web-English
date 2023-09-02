@@ -1,0 +1,18 @@
+.Plans-title{
+	margin: var(--margin-sections) 0 0 0;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.Plans div{
+	width: 50%;
+}
+
+.Plans-container{
+	margin: 4.375rem 0 0 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	gap: 30px;
+}
