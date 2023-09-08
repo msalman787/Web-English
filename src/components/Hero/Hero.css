@@ -27,3 +27,8 @@
 	background-color: var(--color-secondary);
 	color: var(--color-primary);
 }
+
+.Hero-after--p {
+	color: var(--color-primary);
+	text-decoration: underline;
+}

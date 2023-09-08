@@ -8,6 +8,22 @@
 	box-shadow: 0px 8px 30px 0px rgba(91, 91, 91, 0.10);
 
 }
+
 .User-svg{
 	width: 41px;
 }
+
+.User-container{
+	font-family: 'MontserratBold';
+}
+
+.User-name{
+	color: var(--color-secondary);
+	font-size: 22px;
+}
+
+.User-ocupation{
+	font-size: 15px;
+	color: var(--color-other);
+}
+

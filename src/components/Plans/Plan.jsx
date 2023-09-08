@@ -3,13 +3,17 @@ import './Plan.css'
 import { Button } from '../ui/Button'
 
 export default function Plan (plan) {
-  const { plan: { price, name, description, benefits } } = plan
+  const { plan: { price, name, description, benefits, stage } } = plan
+
   return (
     <article className='Plan'>
-      <header>
-        <p>{name}</p>
-        <p>${price}<span>/Mensual</span></p>
-        <p>{description}</p>
+      <header className='Plan-header'>
+        <h3>{name}</h3>
+        <div>
+          <p>${price}</p>
+          <span>/{stage}</span>
+        </div>
+        {/* <p>{description}</p> */}
       </header>
       <hr />
       <main>
@@ -22,9 +26,7 @@ export default function Plan (plan) {
           ))}
         </ul>
       </main>
-      <footer>
-        <Button text='ELEGIR ESTE PLAN' color />
-      </footer>
+      <Button text='ELEGIR ESTE PLAN' color />
     </article>
   )
 }

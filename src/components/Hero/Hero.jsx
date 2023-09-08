@@ -14,7 +14,7 @@ export function Hero () {
         Tu navegador no es compatible con videos HTML5
       </video>
       <section className='Hero-after'>
-        <p>
+        <p className='Hero-after--p'>
           Aprende inglés y desbloquea nuevas oportunidades globales.
         </p>
       </section>

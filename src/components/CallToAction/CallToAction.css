@@ -9,23 +9,20 @@
 	justify-content: space-between;
 
 	border-radius: var(--border-radius-secondary);
+	color: var(--color-primary);
 }
 
 .Call-section{
 	margin: 3.63rem 0 0 0;
 	width: 560px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 }
 
-.Call-section--p{
+.Call-section--text{
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
 
-.Call-section--button{
-	margin: 2.5rem 0 0 0;
-}
-
-/* .Call-img{
-	margin: 0 5.63rem 0 0;
-} */

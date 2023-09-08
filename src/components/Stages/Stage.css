@@ -1,11 +1,46 @@
 .Stage{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 
 	background-color: var(--color-tertiary) ;
 
 	min-width: 413px;
 	min-height: 394px;
 	border-radius: var(--border-radius-primary);
+
 	padding: 1.875rem;
+	gap: 30px;
+}
+
+.Stage-p{
+	font-size: var(--font-size-title);
+	color: var(--color-secondary);
+	font-family: 'MontserratBold';
+}
+
+/* .Stage-container{
+	display: flex;
+	flen: column;
+	gap: 40px;x-directio
+} */
+
+.Stage-container h3{
+	min-height: 80px;
+	/* height: 100px; */
+	font-size: 30px;
+	font-family: 'MontserratBold';
+}
+
+
+.Stage-footer{
+	display: flex;
+	gap: 10px;
+	color: var(--color-secondary);
+	font-family: 'MontserratBold';
+}
+
+.Stage-a{
+	font-weight: bold;
+	text-decoration: underline;
 }

@@ -11,18 +11,20 @@ export function Stages () {
   const { stages } = data
 
   return (
-    <section className='Stages'>
-      <Titles title='Etapas del curso' />
-      <p>12 Etapas para principiantes con los videos y actividades que necesitas para ser exitoso en el Ingles.</p>
-      <section className='Stages-slider'>
-        {
-					stages.map(({ id, title, description }) => (
-						<Stage key={id} title={title} number={id}>
-							<p>{description}</p>
-						</Stage>
-					))
-				}
+    <>
+      <section className='Stages'>
+        <Titles title='Etapas del curso' />
+        <p>12 Etapas para principiantes con los videos y actividades que necesitas para ser exitoso en el Ingles.</p>
       </section>
-    </section>
+      <section className='Stages-slider'>
+      {
+        stages.map(({ id, title, description }) => (
+          <Stage key={id} title={title} number={id}>
+            <p>{description}</p>
+          </Stage>
+        ))
+      }
+      </section>
+    </>
   )
 }

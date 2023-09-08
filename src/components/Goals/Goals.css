@@ -1,22 +1,28 @@
 .Goals{
+	width: 100%;
 	margin: var(--margin-sections) 0 0 0;
-	display: flex;
-	gap: 5.63rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
+
 .Goals-list{
+	width: 100%;
 	margin: 4rem 0 0 0;
 	display: flex;
 	flex-direction: column;
 	gap: 3.75rem;
 }
 
-.Goals-li{
-	list-style-image: url("../src/assets/icons/gl_note-list.svg");
-	padding: 0 0 0 20px;
+
+.Goals-ul{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 }
 
 .Goals-img{
+	place-self: flex-end;
 	height: 700px;
 	border-radius: 10px;
 }

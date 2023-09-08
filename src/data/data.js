@@ -80,27 +80,44 @@ export const data = {
 	plans: [
 		{
 			id: 1,
-			price: 8.5,
-			name: 'Classic plan',
+			price: 10,
+			stage: 'Etapa',
+			name: 'Basic plan',
 			description: 'Lorem ipsum dolor sit amet',
-			benefits: ['lorem', 'lorem', 'lorem'],
+			benefits: ['1 etapa del Verb Tree Learning System', 'Acceso al grupo VIP de Telegram para practicar tu conversación.', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente', 'Puede actualizar al Platinum Package Plan en cualquier momento'],
 			url: ''
 		},
 		{
 			id: 2,
-			price: 97,
-			name: 'Platinum Package Plan',
+			price: 8.5,
+			stage: 'Mensural',
+			name: 'Classic plan',
 			description: 'Lorem ipsum dolor sit amet',
-			benefits: ['lorem', 'lorem', 'lorem'],
+			benefits: ['Obtén el Verb Tree Learning System en su totalidad.', 'El libro de actividades en PDF.', 'Acceso a 2 etapas por mes', 'Accede al grupo VIP de Telegram para practicar tu conversación', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente.'],
 			url: ''
 		},
 		{
 			id: 3,
-			price: 10,
-			name: 'Basic plan',
+			price: 97,
+			stage: 'Curso completo',
+			name: 'Platinum Package Plan',
 			description: 'Lorem ipsum dolor sit amet',
-			benefits: ['lorem', 'lorem', 'lorem'],
+			benefits: ['Obtén el Verb Tree Learning System en su totalidad.', 'El libro de actividades en PDF ', 'Acceso de por vida al curso completo', 'Acceso al grupo VIP de Telegram para practicar tu conversación', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente', 'Garantía de devolución de dinero de 60 días (valor de $60)'],
 			url: ''
+		}
+	],
+	goals: [
+		{
+			id: 1,
+			fact: 'Al ser considerado el idioma universal de la comunicación, aprender inglés te permitirá conectar con personas de diferentes culturas y países alrededor del mundo.'
+		},
+		{
+			id: 2,
+			fact: 'Muchos recursos y conocimientos en áreas como la ciencia, tecnología, investigación y entretenimiento están en inglés, por lo que aprender el idioma te dará acceso a ellos.'
+		},
+		{
+			id: 3,
+			fact: 'Aprender inglés es un desafío que estimula tu mente, mejora tus habilidades cognitivas y te brinda una mayor comprensión de diferentes culturas, lo que amplía tu perspectiva y fomenta el crecimiento personal.'
 		}
 	]
 }

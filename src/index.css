@@ -6,12 +6,18 @@
   --color-primary: #FFF;
   --color-secondary: #245CE9;
   --color-tertiary: #F8F8F8;
+  --color-other: #DA2128;
 
   --border-radius-primary: 10px;
   --border-radius-secondary: 15px;
 
 
   --margin-sections: 8.75rem;
+
+
+  --font-size-title: 30px;
+  --font-size-subtitle: 30px;
+  --font-size-sections: 20px;
 }
 
 *, *::before, *::after {
@@ -45,7 +51,6 @@ a{
   text-decoration: none;
   color: inherit;
 }
-
 
 
 

@@ -1,17 +1,17 @@
-import React from 'react'
 import girlNotebook from '../../assets/img/gl_girl-notebook.jpg'
-import './Goals.css'
 import { Titles } from '../Titles/Titles'
+import { Goal } from './Goal'
+import { data } from '../../data/data.js'
+import './Goals.css'
 
 export function Goals () {
+  const { goals } = data
   return (
     <section className='Goals'>
       <section className='Goals-list'>
         <Titles title='¡Atrévete a explorar nuevas oportunidades y alcanzar tus metas aprendiendo inglés!' />
         <ul className='Goals-ul'>
-          <li className='Goals-li'>Al ser considerado el idioma universal de la comunicación, aprender inglés te permitirá conectar con personas de diferentes culturas y países alrededor del mundo.</li>
-          <li className='Goals-li'>Muchos recursos y conocimientos en áreas como la ciencia, tecnología, investigación y entretenimiento están en inglés, por lo que aprender el idioma te dará acceso a ellos.</li>
-          <li className='Goals-li'>Aprender inglés es un desafío que estimula tu mente, mejora tus habilidades cognitivas y te brinda una mayor comprensión de diferentes culturas, lo que amplía tu perspectiva y fomenta el crecimiento personal.</li>
+          {goals.map(goal => <Goal key={goal.id} fact={goal.fact} />)}
         </ul>
       </section>
       <img className='Goals-img' src={girlNotebook} />

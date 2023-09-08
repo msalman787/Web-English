@@ -2,14 +2,21 @@ import React from 'react'
 import './Stage.css'
 
 export function Stage (props) {
+  const numberWithPads = () => {
+    if (props.number < 10) return `0${props.number}`
+    return props.number
+  }
   return (
     <article className='Stage'>
-      <section>
-        <span>{props.number}</span>
+      <p className='Stage-p'>{numberWithPads()}</p>
+      <main className='Stage-container'>
         <h3>{props.title}</h3>
         {props.children}
-        <a>Lo quiero {'>'}</a>
-      </section>
+      </main>
+      <footer className='Stage-footer'>
+        <a className='Stage-a' href='#'>Lo quiero </a>
+        <span>{'>'}</span>
+      </footer>
     </article>
   )
 }
