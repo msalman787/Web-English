@@ -15,9 +15,7 @@ export function UserStories () {
           <p className='Stories-p'>Nada es más poderoso que el testimonio de quienes han caminado por el mismo camino que estás a punto de emprender.
             Mis estudiantes han descubierto su pasión, han desafiado sus propios límites y han logrado resultados sorprendentes. ¿Qué esperas? Únete a esta comunidad de estudiantes motivados, enérgicos y apasionados.
           </p>
-          <div className='Stories-button'>
-            <Button text='OBTENER CURSO' color />
-          </div>
+          <Button href='#' $secondary>OBTENER CURSO</Button>
         </section>
         <section className='Stories-right'>
           {comments.map(({ id, comment, user, ocupation }) => (

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Plan.css'
 import { Button } from '../ui/Button'
+import Benefit from './Benefit'
 
 export default function Plan (plan) {
   const { plan: { price, name, description, benefits, stage } } = plan
@@ -16,17 +17,15 @@ export default function Plan (plan) {
         {/* <p>{description}</p> */}
       </header>
       <hr />
-      <main>
-        <p>Beneficios</p>
-        <ul>
+      <main className='Plan-main'>
+        <h4>Beneficios</h4>
+        <ul className='Plan-main-benefits'>
           {benefits.map(benefit => (
-            <li key={Math.random()}>
-              {benefit}
-            </li>
+            <Benefit key={Math.random()} benefit={benefit} />
           ))}
         </ul>
       </main>
-      <Button text='ELEGIR ESTE PLAN' color />
+      <Button href='#' $secondary>ELEGIR ESTE PLAN</Button>
     </article>
   )
 }

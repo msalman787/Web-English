@@ -1,0 +1,11 @@
+.Benefit{
+	display: flex;
+	gap: 10px;
+	align-items: flex-start;
+	font-family: 'Montserrat';
+}
+
+
+.Benefit img{
+	color: brown;
+}
