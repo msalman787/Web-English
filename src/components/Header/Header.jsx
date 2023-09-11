@@ -7,7 +7,7 @@ import './Header.css'
 export function Header () {
   return (
     <header className='Header'>
-      <Logo />
+      <Logo size='sm' />
       <NavBar />
       <div className='Header-button'>
         <Button text='HABLEMOS' color />

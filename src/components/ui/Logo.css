@@ -1,11 +1,5 @@
 .Logo{
-	max-width: 70px;
 	display: flex;
 	flex-grow: 1;
 	flex-basis: 0;
-}
-
-.Hola{
-	width: 24px;
-	height: 24px;
 }

@@ -2,10 +2,10 @@ import React from 'react'
 import logo from '../../assets/icons/logo-gringolandia.png'
 import './Logo.css'
 
-export function Logo () {
+export function Logo ({ size }) {
   return (
     <picture className='Logo'>
-      <img className='Logo-img' src={logo} />
+      <img className={size === 'sm' ? 'max-w-[70px]' : 'max-w-[194px]'} src={logo} />
     </picture>
   )
 }
