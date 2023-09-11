@@ -4,7 +4,7 @@ import { Button } from '../ui/Button'
 import Benefit from './Benefit'
 
 export default function Plan (plan) {
-  const { plan: { price, name, description, benefits, stage } } = plan
+  const { plan: { price, name, description, benefits, stage, url } } = plan
 
   return (
     <article className='Plan'>
@@ -14,7 +14,6 @@ export default function Plan (plan) {
           <p>${price}</p>
           <span>/{stage}</span>
         </div>
-        {/* <p>{description}</p> */}
       </header>
       <hr />
       <main className='Plan-main'>
@@ -25,7 +24,7 @@ export default function Plan (plan) {
           ))}
         </ul>
       </main>
-      <Button href='#' $secondary>ELEGIR ESTE PLAN</Button>
+      <Button href={url} $secondary>ELEGIR ESTE PLAN</Button>
     </article>
   )
 }

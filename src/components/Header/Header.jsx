@@ -9,9 +9,7 @@ export function Header () {
     <header className='Header'>
       <Logo size='sm' />
       <NavBar />
-      <div className='Header-button'>
-        <Button text='HABLEMOS' color />
-      </div>
+      <Button $secondary>HABLEMOS</Button>
     </header>
   )
 }
