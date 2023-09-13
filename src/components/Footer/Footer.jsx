@@ -20,13 +20,13 @@ export function Footer () {
             <a className='Footer-a' href='https://www.instagram.com/gringolandiaenglish/' target='no_blank'>
               <img className='Footer-img' src='src/assets/icons/gl_icon-in.svg' />
             </a>
-            <a className='Footer-a' href='https://www.youtube.com/@gringolandiaenglish'>
+            <a className='Footer-a' href='https://www.youtube.com/@gringolandiaenglish' target='no_blank'>
               <img className='Footer-img' src='src/assets/icons/gl_icon-yt.svg' />
             </a>
             <a className='Footer-a' href='https://www.tiktok.com/@gringolandiaenglish?_t=8fbdw9PkwPF&_r=1' target='no_blank'>
               <img className='Footer-img' src='src/assets/icons/gl_icon-tt.svg' />
             </a>
-            <a className='Footer-a'>
+            <a className='Footer-a' href='mailto:gringolandiaenglish@gmail.com' target='no_blank'>
               <img className='Footer-img' src='src/assets/icons/gl_icon-ml.svg' />
             </a>
             <a className='Footer-a' href='https://www.facebook.com/profile.php?id=100065104316610' target='no_blank'>

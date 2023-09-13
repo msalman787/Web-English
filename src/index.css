@@ -18,18 +18,36 @@
   --font-size-title: 30px;
   --font-size-subtitle: 30px;
   --font-size-sections: 20px;
+
+
+
+
+    --swiper-scrollbar-border-radius: 10px;
+    --swiper-scrollbar-top: auto;
+    --swiper-scrollbar-bottom: 10px;
+    --swiper-scrollbar-left: auto;
+    --swiper-scrollbar-right: 4px;
+    --swiper-scrollbar-sides-offset: 1%;
+    --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);
+    --swiper-scrollbar-drag-bg-color: var(--color-secondary);
+    --swiper-scrollbar-size: 8px;
+
 }
+
 
 *, *::before, *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 * {
   margin: 0;
 }
+
 body {
   font-family: 'Montserrat';
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+
 }
 img, picture, video, canvas, svg {
   display: block;

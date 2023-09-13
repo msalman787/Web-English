@@ -10,7 +10,14 @@
 	margin: 4.12rem 0 0 0;
 	display: flex;
 	gap: 1.875rem;
-	
 	overflow-x: scroll;
-	scroll-behavior: smooth;
 }
+
+.Stages-slider::-webkit-scrollbar{
+	height: 10px;
+}
+.Stages-slider::-webkit-scrollbar-track{
+	background-color: transparent;
+}
+
+

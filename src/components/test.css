@@ -1,0 +1,29 @@
+.test__stage{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	
+		background-color: var(--color-tertiary) ;
+	
+		min-width: 413px;
+		min-height: 394px;
+		border-radius: var(--border-radius-primary);
+	
+		padding: 1.875rem;
+		gap: 30px;
+}
+
+/* Estilo para el contenedor de la barra de progreso */
+/* .progress {
+  width: 100%;
+  height: 10px; 
+  background-color: #ccc; 
+  margin-top: 10px; 
+}
+
+/* Estilo para la propia barra de progreso */
+/* .progress-bar {
+  height: 100%; 
+  background-color: #007bff; 
+  transform-origin: left center; 
+} */ 

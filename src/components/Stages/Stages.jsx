@@ -1,11 +1,10 @@
 /* eslint-disable react/jsx-indent */
 // eslint-disable-next-line react/jsx-indent
 /* eslint-disable no-tabs */
-import React from 'react'
 import { Stage } from './Stage'
-import './Stages.css'
 import { data } from '../../data/data.js'
 import { Titles } from '../Titles/Titles'
+import './Stages.css'
 
 export function Stages () {
   const { stages } = data

@@ -8,7 +8,7 @@ export function Plans () {
   const { plans } = data
   return (
     <>
-      <section className='Plans-title'>
+      <section className='Plans-title' id='plans'>
         <div>
           <Titles title='Hay un plan perfecto para ti' />
         </div>
