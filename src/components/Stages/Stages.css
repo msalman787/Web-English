@@ -32,15 +32,24 @@
 	align-items: center;
 }
 
+.swiper{
+	align-items: center;
+}
+
+.swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+	position: static;
+}
+
 
 .Stages-footer{
 	margin: 3rem 0 0 0;
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 .Stages-footer-buttons{
-	position: absolute;
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -53,4 +62,16 @@
 
 .button-right{
 	transform: rotate(180deg);
+}
+.scrollbar{
+	width: 600px;
+	background-color: aqua;
+}
+/* 
+.swiper-scrollbar{
+	width: 60%!important;
+} */
+
+.swiper-scrollbar-drag{
+
 }

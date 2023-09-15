@@ -7,7 +7,6 @@ import { Stages } from './components/Stages/Stages.jsx'
 import { UserStories } from './components/UserStories/UserStories.jsx'
 
 import { Layout } from './layout/Layout.jsx'
-import Test from './components/test.jsx'
 
 export default function App () {
   return (

@@ -23,11 +23,11 @@
 
 
     --swiper-scrollbar-border-radius: 10px;
-    --swiper-scrollbar-top: auto;
-    --swiper-scrollbar-bottom: 10px;
-    --swiper-scrollbar-left: auto;
+    --swiper-scrollbar-top: none;
+    --swiper-scrollbar-bottom: none;
+    --swiper-scrollbar-left: none;
     --swiper-scrollbar-right: 4px;
-    --swiper-scrollbar-sides-offset: 1%;
+    --swiper-scrollbar-sides-offset: 20%;
     --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);
     --swiper-scrollbar-drag-bg-color: var(--color-secondary);
     --swiper-scrollbar-size: 8px;

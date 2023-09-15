@@ -30,7 +30,7 @@ export function Stages () {
         <Titles title='Etapas del curso' />
         <p>12 Etapas para principiantes con los videos y actividades que necesitas para ser exitoso en el Ingles.</p>
       </section>
-      <div className='Swiper-container'>
+      <div className='Swiper-container swiper mySwiper'>
         <Swiper
           modules={[Autoplay, FreeMode, Scrollbar]}
           autoplay={{
@@ -42,11 +42,11 @@ export function Stages () {
           slidesPerGroup={4}
           watchSlidesProgress
           scrollbar={{
-            hide: true,
+            el: ".swiper-scrollbar",
+            hide: false,
             draggable: true,
-            dragSize: 200
+            dragSize: 100
           }}
-          loop
           freeMode='true'
           onSwiper={(s) => setSwiper(s)}
           className='Stages-slider'
@@ -65,7 +65,7 @@ export function Stages () {
       <section className='Stages-footer'>
         <div className='Stages-footer-buttons'>
           <button onClick={backTo} className='Stages-footer-button'><img src={glArrows} /></button>
-          <div>Scrollbar</div>
+          <div className='swiper-scrollbar'></div>
           <button onClick={nextTo} className='Stages-footer-button button-right'><img src={glArrows} /></button>
         </div>
       </section>
