@@ -11,6 +11,8 @@
 	gap: 20px;
 	width: 80%;
 }
+
+
 .Stories-p{
 	width: 100%;
 }
@@ -21,6 +23,12 @@
 .Stories-right{
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 700px;
 	gap: 3.125rem;
+}
+.Stories-right::after{
+	overflow-x: hidden;
 }
 
