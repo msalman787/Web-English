@@ -1,26 +1,47 @@
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay, FreeMode, Scrollbar } from 'swiper/modules'
+// import { SwiperSlide, useSwiper } from 'swiper/react'
+import { Swiper } from 'swiper'
+// import { Autoplay, FreeMode, Scrollbar, Navigation } from 'swiper/modules'
 import { data } from '../data/data.js'
 import 'swiper/css/scrollbar'
 import 'swiper/css'
+import 'swiper/css/navigation'
 import './test.css'
-import { progress } from 'framer-motion'
 
 export default function Test () {
   const { stages } = data
 
-  window.addEventListener('load', () => {
-    const progress = document.getElementById('progress')
-  })
-  function updateProgress () {
-    progress.style.width = `${(document.body.scrollWidth / window.innerWidth) * 100}%`
-    requestAnimationFrame(updateProgress)
-  }
+  const swiper = new Swiper('.swiper', {
+    speed: 400,
+    spaceBetween: 100,
+    direction: 'horizontal',
+    loop: true,
+    // allowTouchMove: true,
+    // effect: "cube",
+    autoplay: {
+      delay: 10000,
+      pauseOnMouseEnter: true,
+      disableOnInteraction: false
+    },
 
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      // type: "progressbar"
+      clickable: true
+      // dynamicBullets: true
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    slidesPerView: 1
+  })
   return (
     <>
-      <Swiper
-        modules={[Autoplay, FreeMode, Scrollbar]}
+      {/* <Swiper
+        modules={[Autoplay, FreeMode, Scrollbar, Navigation]}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false
@@ -31,25 +52,44 @@ export default function Test () {
         scrollbar={{
           hide: true
         }}
+        navigation
         freeMode='true'
-        className='flex gap-10 my-10'
-      >
-        {stages.map(({ id, title, description }) => (
-          <SwiperSlide className='test__stage' key={id}>
-            <p className='Stage-p'>{id}</p>
-            <main className='Stage-container'>
-              <h3>{title}</h3>
-              <p>{description}</p>
-            </main>
-            <footer className='Stage-footer'>
-              <a className='Stage-a' href='#'>
-                Lo quiero
-              </a>
-              <span>{'>'}</span>
-            </footer>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+        className='test__wrapper'
+        disabledClass
+      > */}
+
+      {/* <!-- Slider main container --> */}
+      <div class='swiper'>
+        {/* <!-- Additional required wrapper --> */}
+        <div class='swiper-wrapper'>
+          {/* <!-- Slides --> */}
+          {stages.map(({ id, title, description }) => (
+            <div class='swiper-slide' key={id}>
+              <p className='Stage-p'>{id}</p>
+              <main className='Stage-container'>
+                <h3>{title}</h3>
+                <p>{description}</p>
+              </main>
+              <footer className='Stage-footer'>
+                <a className='Stage-a' href='#'>
+                  Lo quiero
+                </a>
+                <span>{'>'}</span>
+              </footer>
+            </div>
+          ))}
+          ...
+        </div>
+        {/* <!-- If we need pagination --> */}
+        <div class='swiper-pagination' />
+
+        {/* <!-- If we need navigation buttons --> */}
+        <div class='swiper-button-prev' />
+        <div class='swiper-button-next' />
+
+        {/* <!-- If we need scrollbar --> */}
+        <div class='swiper-scrollbar' />
+      </div>
     </>
   )
 }

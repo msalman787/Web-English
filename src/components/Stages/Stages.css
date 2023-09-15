@@ -7,6 +7,7 @@
 }
 
 .Stages-slider{
+	display: flex;
 	margin: 4.12rem 0 0 0;
 	display: flex;
 	gap: 1.875rem;
@@ -20,4 +21,36 @@
 	background-color: transparent;
 }
 
+/* .Stages-slide{
+	margin-bottom: 66px;
+} */
 
+.Swiper-container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+
+
+.Stages-footer{
+	margin: 3rem 0 0 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.Stages-footer-buttons{
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 950px;
+}
+.Stages-footer-button{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.button-right{
+	transform: rotate(180deg);
+}

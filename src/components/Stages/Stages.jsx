@@ -1,13 +1,28 @@
+import { React, useState } from 'react'
 /* eslint-disable react/jsx-indent */
 // eslint-disable-next-line react/jsx-indent
 /* eslint-disable no-tabs */
 import { Stage } from './Stage'
 import { data } from '../../data/data.js'
 import { Titles } from '../Titles/Titles'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, FreeMode, Scrollbar } from 'swiper/modules'
+import glArrows from '../../assets/icons/gl_arrows.svg'
+import 'swiper/css/scrollbar'
+import 'swiper/css'
 import './Stages.css'
 
 export function Stages () {
   const { stages } = data
+  const [swiper, setSwiper] = useState(null)
+
+  const nextTo = () => {
+    swiper.slideNext()
+  }
+
+  const backTo = () => {
+    swiper.slidePrev()
+  }
 
   return (
     <>
@@ -15,14 +30,44 @@ export function Stages () {
         <Titles title='Etapas del curso' />
         <p>12 Etapas para principiantes con los videos y actividades que necesitas para ser exitoso en el Ingles.</p>
       </section>
-      <section className='Stages-slider'>
-      {
-        stages.map(({ id, title, description }) => (
-          <Stage key={id} title={title} number={id}>
-            <p>{description}</p>
-          </Stage>
-        ))
-      }
+      <div className='Swiper-container'>
+        <Swiper
+          modules={[Autoplay, FreeMode, Scrollbar]}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false
+          }}
+          slidesPerView={3}
+          spaceBetween={30}
+          slidesPerGroup={4}
+          watchSlidesProgress
+          scrollbar={{
+            hide: true,
+            draggable: true,
+            dragSize: 200
+          }}
+          loop
+          freeMode='true'
+          onSwiper={(s) => setSwiper(s)}
+          className='Stages-slider'
+        >
+        {
+          stages.map(({ id, title, description }) => (
+            <SwiperSlide className='Stages-slide' key={id}>
+              <Stage key={id} title={title} number={id}>
+                <p>{description}</p>
+              </Stage>
+            </SwiperSlide>
+          ))
+        }
+        </Swiper>
+      </div>
+      <section className='Stages-footer'>
+        <div className='Stages-footer-buttons'>
+          <button onClick={backTo} className='Stages-footer-button'><img src={glArrows} /></button>
+          <div>Scrollbar</div>
+          <button onClick={nextTo} className='Stages-footer-button button-right'><img src={glArrows} /></button>
+        </div>
       </section>
     </>
   )
