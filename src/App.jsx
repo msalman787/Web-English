@@ -19,7 +19,6 @@ export default function App () {
         <About />
         <UserStories />
         <Plans />
-        <Test />
       </Layout>
     </>
   )
