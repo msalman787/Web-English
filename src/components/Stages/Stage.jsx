@@ -14,7 +14,7 @@ export function Stage (props) {
         {props.children}
       </main>
       <footer className='Stage-footer'>
-        <a className='Stage-a' href='#'>Lo quiero </a>
+        <a className='Stage-a' href='https://gringolandiaeng.samcart.com/products/verb-tree-learning-system-basic-1/' target='no_blank'>Lo quiero </a>
         <span>{'>'}</span>
       </footer>
     </article>

@@ -21,9 +21,6 @@
 	background-color: transparent;
 }
 
-/* .Stages-slide{
-	margin-bottom: 66px;
-} */
 
 .Swiper-container{
 	display: flex;
@@ -72,12 +69,30 @@
 	width: 60%!important;
 } */
 
-.swiper-scrollbar-drag{
-
-}
 
 @media (width <= 576px){
-	
+	.Stages{
+		margin: 3rem 0 0 0;
+		width: 100%;
+	}
+	.Stages-slider{
+		margin: 0;
+	}
+	.Stages-slide{
+		margin: 2rem 0 0 0;
+	}
+	.Stage{
+		width: 100%;
+	}
+	.scrollbar{
+		width: 100%;
+	}
+	.Stages-footer-buttons{
+		width: 100%;
+	}
+	.swiper{
+		padding: 0!important;
+	}
 }
 @media (576px <= width <= 768){
 

@@ -50,11 +50,18 @@ export function Stages () {
           breakpoints={{
             300: {
               slidesPerView: 1,
-              spaceBetween: 30
+              spaceBetween: 30,
+              slidesPerGroup: 1
             },
             768: {
               slidesPerView: 1,
-              spaceBetween: 5
+              spaceBetween: 30,
+              slidesPerGroup: 1
+            },
+            992: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              slidesPerGroup: 4
             }
           }}
           freeMode
