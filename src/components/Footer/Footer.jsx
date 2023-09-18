@@ -12,15 +12,9 @@ export function Footer () {
     <section className='Footer'>
       <Logo size='xl' />
       <section className='Footer-content'>
-        <section className='Footer-info'>
-          <p>Únete al grupo de telegram y a la clase grupal gratuita</p>
-          <form className='Footer-info-form'>
-            <input type='text' placeholder='Nombre' />
-            <Button $secondary>Enviar</Button>
-          </form>
-        </section>
         <div className='Footer-social'>
-          <p>¿Tienes algo por decirnos? Escríbenos a <a href='mailto:gringolandiaenglish@gmail.com' target='no_blank'>gringolandiaenglish@gmail.com</a></p>
+          <p>¿Tienes algo por decirnos? Escríbenos a</p>
+          <a className='Footer-social-strong' href='mailto:gringolandiaenglish@gmail.com' target='no_blank'>gringolandiaenglish@gmail.com</a>
           <div className='Footer-icons'>
             <a className='Footer-a' href='https://www.instagram.com/gringolandiaenglish/' target='no_blank'>
               <img className='Footer-img' src={glIconIN} alt='Icono de red social Instagram' />

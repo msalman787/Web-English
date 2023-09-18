@@ -9,8 +9,7 @@
 
 .Footer-content{
 	margin: 44px 0 0 0;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	display: flex;
 	align-items: center;
 }
 
@@ -20,19 +19,38 @@
 	flex-direction: column;
 	gap: 20px;
 }
-/* .Footer-info-form{
-	display: flex;
-	justify-content: space-between;
-} */
 
 .Footer-social{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	text-align: center;
 }
+.Footer-social-strong{
+	font-weight: bold;
+}
+
 .Footer-icons{
+	margin: 3rem 0 0 0;
 	display: flex;
-	align-self: flex-start;
+	align-self: center;
 	gap: 30px;
+}
+
+@media (width <= 576px){
+	.Footer{
+		margin: 3rem 0 3rem 0;
+	}
+}
+@media (576px <= width <= 768){
+
+}
+@media (768px <= width <= 992){
+	
+}
+@media (992px <= width <= 1200){
+	
+}
+@media ( width > 1200){
+	
 }

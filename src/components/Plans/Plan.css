@@ -1,6 +1,8 @@
 .Plan{
 	display: flex;
 	flex-direction: column;
+	min-height: 700px!important;
+	justify-content: space-between;
 	gap: 30px;
 	padding: 1.875rem;
 	/* min-width: 413px; */
