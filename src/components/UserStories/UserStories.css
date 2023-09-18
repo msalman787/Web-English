@@ -22,13 +22,44 @@
 
 .Stories-right{
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
 	width: 100%;
 	height: 700px;
-	gap: 3.125rem;
 }
 .Stories-right::after{
 	overflow-x: hidden;
 }
+.swiper{
+	padding: 1.5rem;
+}
 
+/* .myswiper{
+	display: flex;
+	flex-direction: column;
+} */
+
+
+/* .myswiper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	flex-direction: column;
+} */
+
+/* .swiper-wrapper {
+	flex-direction: column!important;
+	flex-wrap: wrap!important;
+} */
+.swiper-slide-users{
+	width: 100%;
+}
+
+.swiper-slide{
+	height: 100%;
+}
+
+.swiper-slide{
+	height: 100%;
+} 
+.swiper-slide-prev, .swiper-slide-next, .swiper-slide-active{
+	height: fit-content!important;
+}

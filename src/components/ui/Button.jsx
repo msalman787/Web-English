@@ -37,4 +37,21 @@ ${props => props.$secondary && `
   cursor: pointer;
   font-weight: bold;
 
+  @media (width <= 576px){
+    width: 100%;
+    text-align: center;
+  }
+  @media (576px <= width <= 768){
+
+  }
+  @media (768px <= width <= 992){
+    
+  }
+  @media (992px <= width <= 1200){
+    
+  }
+  @media ( width > 1200){
+    
+  }
+
 `

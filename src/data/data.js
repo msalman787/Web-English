@@ -66,52 +66,76 @@ export const data = {
 	comments: [
 		{
 			id: 1,
-			comment: 'Kristian enfoca sus clases en las necesidades del alumno. ya que sus clases son personalizadas y te explica con muy buenos ejemplos si no entiendes algo y el ambiente durante la clase favorece el aprendizaje. ademas maneja muy bien el español por si hay que explicar algo en profundidad',
-			user: 'Regis Wilson',
-			ocupation: 'Ingeniero'
+			comment: 'Kristian es un profesor muy dedicado que enfoca sus clases según las necesidades del alumno. Aprendí mucho con él, ya que sus clases son personalizadas y te explica con muy buenos ejemplos si no entiendes algo. El ambiente durante la clase favorece el aprendizaje. Además maneja muy bien el español por si es necesario explicar algo en profundidad. Completamente recomendado.',
+			user: 'Evelyn',
+			date: '27/01/2021'
 		},
 		{
 			id: 2,
-			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
-			user: 'Emma Watson',
-			ocupation: 'Ceo'
+			comment: 'Buen profesor, al ser joven logra una mayor conexión y ambiente propicio con los alumnos universitarios, otorgando comodidad al momento de hablar en inglés. Además al ser un profesor bilingüe entiende las dudas e inquietudes de una forma superior al común, dando ejemplos de lo que correspondería cada frase, desarrollo de diálogos usuales en situaciones de conversación real, etc.',
+			user: 'Benjamín',
+			date: '27/01/2021'
 		},
 		{
-			id: 2,
-			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
-			user: 'Emma Watson',
-			ocupation: 'Ceo'
+			id: 3,
+			comment: 'Most patient & thorough teacher I’ve ever had the pleasure of being taught by. Excellent at listening to your needs and where to help excel you the most. From music to language and beyond, he is simply the best!.',
+			user: 'Austin',
+			date: '27/01/2021'
 		},
 		{
-			id: 2,
-			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
-			user: 'Emma Watson',
-			ocupation: 'Ceo'
+			id: 4,
+			comment: 'Excelente profesor, potencia todas las habilidades en inglés sin importar el nivel previo que uno tenga. Genera un ambiente cómodo y respetuoso, lo cual es importante al momento de desenvolverse en un idioma que no es el nativo de uno. Logra crear una clase entretenida acorde a los intereses personales.',
+			user: 'Sergio',
+			date: '27/01/2021'
 		},
 		{
-			id: 2,
-			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
-			user: 'Emma Watson',
-			ocupation: 'Ceo'
+			id: 5,
+			comment: 'An excellent teacher, thanks to him my level of english improved significantly His classes are quite educational and entertaining.',
+			user: 'Sebastián',
+			date: '27/01/2021'
 		},
 		{
-			id: 2,
-			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
-			user: 'Emma Watson',
-			ocupation: 'Ceo'
+			id: 6,
+			comment: 'Es un profesor que sabe como llegar al alumno haciendo clases didácticas y entretenidas que permiten una mejor comprensión de lo que se esta enseñando.',
+			user: 'Nicolás Velásquez',
+			date: '26/01/2021'
 		},
 		{
-			id: 2,
-			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
-			user: 'Emma Watson',
-			ocupation: 'Ceo'
+			id: 7,
+			comment: 'Me gustó el uso de la música como herramienta tanto para el aprendizaje del alumno como para llamar su atención, haciendo mucho más dinámica la clase y creando un ambiente de aprendizaje recíproco tocando temas diversos y variados tanto de la cultura chilena como norteamericana.',
+			user: 'Luis',
+			date: '26/01/2021'
 		},
 		{
-			id: 2,
-			comment: 'Mantiene un ambiente profesional y es muy flexible con mis horarios de trabajo.tengo 3 hijos y trabajo en un hospital.Kristian me ayudo durante la epoca de pandemia y tuvimos clases divertidas con buenas actividades, me gusto la experiencia.',
-			user: 'Emma Watson',
-			ocupation: 'Ceo'
+			id: 8,
+			comment: 'Fue un profesor out profesional que siempre mantuvo el respeto y la buena convivencia en la sala, mantiene los reglamentos internos de la institución y no habla español a menos de que sea estrictamente necesario.',
+			user: 'Sebastian',
+			date: '26/01/2021'
 		},
+		{
+			id: 9,
+			comment: 'Él ha sabido diagnosticar mis necesidades de aprendizaje y presentarme un material completo y efectivo. Ha corregido mi pronunciación y ha contextualizado en situaciones reales el significado de palabras y frases. Es un profesor puntual, empático u amable que hace de la clase una experiencia agradable.',
+			user: 'ladyR',
+			date: '02/07/2021'
+		},
+		{
+			id: 10,
+			comment: 'Muy buen profesor, se nota su habilidad en el inglés además de tener una gran facilidad para enseñar.',
+			user: 'Rodrigo',
+			date: '02/07/2021'
+		},
+		{
+			id: 11,
+			comment: 'Excelente profesor, dedicado a sus clases. Independiente tu nivel de inglés logra captar tu interés por el idioma de una forma entretenida.',
+			user: 'Jose Leon Carmona',
+			date: '10/05/2022'
+		},
+		{
+			id: 12,
+			comment: 'En pocas palabras, Kristian ha sido el mejor profesor de ingles que he tenido, pues, además de ayudarte con tus necesidades en inglés, resulta ser una persona muy cercana con la que se puede tener una soltura gigantesca al momento de adentrarte en el estudio de este idioma.',
+			user: 'Javier',
+			date: '22/09/2022'
+		}
 	],
 	plans: [
 		{

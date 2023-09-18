@@ -19,9 +19,37 @@
 	flex-direction: column;
 	gap: 30px;
 }
-
 .Goals-img{
 	place-self: flex-end;
 	height: 700px;
 	border-radius: 10px;
+}
+
+@media (width <= 576px){
+	.Goals{
+		margin: 0rem 0 0 0;
+		display: flex;
+		flex-direction: column;
+	}
+	.Goals-list{
+		margin: 3rem 0 0 0;
+	}
+	.Goals-img{
+		margin: 3rem 0 0 0;
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+}
+@media (576px <= width <= 768){
+
+}
+@media (768px <= width <= 992){
+	
+}
+@media (992px <= width <= 1200){
+	
+}
+@media ( width > 1200){
+	
 }

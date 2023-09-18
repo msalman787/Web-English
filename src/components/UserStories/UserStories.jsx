@@ -4,6 +4,8 @@ import { UserStorie } from './UserStorie'
 import { data } from '../../data/data.js'
 
 import './UserStories.css'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper/modules'
 
 export function UserStories () {
   const { comments } = data
@@ -18,14 +20,27 @@ export function UserStories () {
           <Button href='#plans' $secondary>OBTENER CURSO</Button>
         </section>
         <section className='Stories-right'>
-          {comments.map(({ id, comment, user, ocupation }) => (
-            <UserStorie
-              key={id}
-              comment={comment}
-              user={user}
-              ocupation={ocupation}
-            />
-          ))}
+          <Swiper
+            modules={[Autoplay]}
+            className='mySwiper myswiper'
+            direction='vertical'
+            slidesPerView={2}
+            spaceBetween={20}
+            slidesPerGroup={1}
+            autoplay={{
+              delay: 4000
+            }}
+          >
+            {comments.map(({ id, comment, user, date }) => (
+              <SwiperSlide key={id} className='swiper-slide-users'>
+                <UserStorie
+                  comment={comment}
+                  user={user}
+                  date={date}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </section>
       </section>
     </>

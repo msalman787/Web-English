@@ -42,12 +42,22 @@ export function Stages () {
           slidesPerGroup={4}
           watchSlidesProgress
           scrollbar={{
-            el: ".swiper-scrollbar",
+            el: '.swiper-scrollbar',
             hide: false,
             draggable: true,
             dragSize: 100
           }}
-          freeMode='true'
+          breakpoints={{
+            300: {
+              slidesPerView: 1,
+              spaceBetween: 30
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 5
+            }
+          }}
+          freeMode
           onSwiper={(s) => setSwiper(s)}
           className='Stages-slider'
         >
@@ -65,7 +75,7 @@ export function Stages () {
       <section className='Stages-footer'>
         <div className='Stages-footer-buttons'>
           <button onClick={backTo} className='Stages-footer-button'><img src={glArrows} /></button>
-          <div className='swiper-scrollbar'></div>
+          <div className='swiper-scrollbar' />
           <button onClick={nextTo} className='Stages-footer-button button-right'><img src={glArrows} /></button>
         </div>
       </section>

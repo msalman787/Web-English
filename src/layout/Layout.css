@@ -1,3 +1,23 @@
 .Layout{
 	padding: 25px 270px 40px 270px;
 }
+
+
+@media (width <= 576px){
+	.Layout{
+		margin: 0;
+		padding: 1rem;
+	}
+}
+@media (576px <= width <= 768){
+
+}
+@media (768px <= width <= 992){
+	
+}
+@media (992px <= width <= 1200){
+	
+}
+@media ( width > 1200){
+	
+}
