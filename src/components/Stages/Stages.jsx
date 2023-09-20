@@ -54,9 +54,9 @@ export function Stages () {
               slidesPerGroup: 1
             },
             768: {
-              slidesPerView: 1,
+              slidesPerView: 2,
               spaceBetween: 30,
-              slidesPerGroup: 1
+              slidesPerGroup: 2
             },
             992: {
               slidesPerView: 3,

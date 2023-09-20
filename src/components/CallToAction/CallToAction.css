@@ -45,15 +45,22 @@
 		object-position: top;
 	}
 }
-@media (576px <= width <= 768){
-
-}
-@media (768px <= width <= 992){
-	
-}
-@media (992px <= width <= 1200){
-	
-}
-@media ( width > 1200){
-	
+@media (576px <= width <= 992px){
+	.Call{
+		margin: 3rem 0 0 0;
+		padding: 40px 15px 0 15px;
+		display: flex;
+		flex-direction: column;
+		height: 700px;
+		gap: 40px;
+	}
+	.Call-section{
+		margin: 0;
+		width: 100%;
+	}
+	.Call-img{
+		overflow: hidden;
+		object-fit: cover;
+		object-position: top;
+	}
 }

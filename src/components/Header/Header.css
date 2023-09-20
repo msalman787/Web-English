@@ -16,15 +16,11 @@
 		display: none;
 	}
 }
-@media (576px <= width <= 768){
+@media (576px <= width <= 992px){
+	.Nav{
+		display: none;
+	}
+}
+@media (992px <= width <= 1920px){
 
-}
-@media (768px <= width <= 992){
-	
-}
-@media (992px <= width <= 1200){
-	
-}
-@media ( width > 1200){
-	
 }

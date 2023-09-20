@@ -9,15 +9,9 @@
 		padding: 1rem;
 	}
 }
-@media (576px <= width <= 768){
-
-}
-@media (768px <= width <= 992){
-	
-}
-@media (992px <= width <= 1200){
-	
-}
-@media ( width > 1200){
-	
+@media (576px <= width <= 992px){
+	.Layout{
+		margin: 0;
+		padding: 2rem;
+	}
 }

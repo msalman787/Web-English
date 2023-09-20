@@ -24,10 +24,9 @@
 	gap: 1.875rem;
 }
 
-/* Revisar button, posición */
 .About-Button{
-	margin: 3.75rem 0 0 0;
-	align-self: flex-start;
+	margin: 40px 0 0 0;
+	width: 100%;
 }
 
 hr{
@@ -38,6 +37,7 @@ hr{
 
 @media (width <= 576px){
 	.About{
+		margin: 3rem 0 0 0;
 		width: 100%;
 	}
 	.About-item{
@@ -48,7 +48,7 @@ hr{
 	}
 	.About-main{
 		width: 100%;
-		padding: 0 0 0 30px;
+		padding: 0;
 	}
 	hr{
 		display: none;

@@ -1,4 +1,3 @@
-import { Button } from '../ui/Button'
 import { Logo } from '../ui/Logo'
 import glIconFB from '../../assets/icons/gl_icon-fb.svg'
 import glIconIN from '../../assets/icons/gl_icon-in.svg'

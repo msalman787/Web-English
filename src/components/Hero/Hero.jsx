@@ -14,9 +14,9 @@ export function Hero () {
         Tu navegador no es compatible con videos HTML5
       </video>
       <section className='Hero-after'>
-        <p className='Hero-after--p'>
+        <a href='https://gringolandiaeng.mysamcart.com/checkout/gringolandia-english-verb-tree-learning-system' className='Hero-after--a'>
           Aprende inglés y desbloquea nuevas oportunidades globales.
-        </p>
+        </a>
       </section>
     </section>
   )

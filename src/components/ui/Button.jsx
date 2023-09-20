@@ -29,7 +29,7 @@ ${props => props.$secondary && `
   }
 `}
 
-  width: fit-content;
+  width: inherit;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 15px;
