@@ -24,7 +24,7 @@ export function UserStories () {
         <section className='Stories-right'>
           <Swiper
             modules={[Autoplay]}
-            className='mySwiper myswiper'
+            className='mySwiper myswiper Swiper-users'
             direction='vertical'
             slidesPerView={2}
             spaceBetween={20}
@@ -37,6 +37,16 @@ export function UserStories () {
                 slidesPerView: 1,
                 spaceBetween: 30,
                 slidesPerGroup: 1
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                slidesPerGroup: 2
+              },
+              992: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                slidesPerGroup: 4
               }
             }}
           >

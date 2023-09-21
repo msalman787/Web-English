@@ -15,27 +15,23 @@
 	gap: 30px;
 }
 .Swiper-plans{
+	height: 48rem;
 	width: 100%;
 }
 
 @media (width <= 576px){
 	.Plans-title{
-		margin: 3rem 0 0 0;
+		margin: 4rem 0 0 0;
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
 	}
-
 }
-@media (576px <= width <= 768){
-
-}
-@media (768px <= width <= 992){
+@media (992px <= width <= 1920px){
+	.Plans-title{
+		margin: var(--margin-sections) 0 0 0;
 	
-}
-@media (992px <= width <= 1200){
-	
-}
-@media ( width > 1200){
-	
+		display: grid;
+		grid-template-columns: 0.7fr 0.75fr;
+	}
 }

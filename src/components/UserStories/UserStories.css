@@ -43,7 +43,7 @@
 
 @media (width <= 576px){
 	.Stories{
-		margin: 3rem 0 0 0;
+		margin: 4rem 0 0 0;
 		display: flex;
 		flex-direction: column;
 	}
@@ -63,17 +63,17 @@
 	}
 }
 @media (576px <= width <= 992px){
-	.Stories-footer{
-		display: none;
-	}
 	.Stories{
-		margin: 3rem 0 0 0;
+		margin: 4rem 0 0 0;
 		display: flex;
 		flex-direction: column;
 	}
 	.Stories-left{
 		width: 100%;
 		margin: 0 0 2rem 0;
+	}
+	.Stories-footer{
+		display: none;
 	}
 	.swiper-wrapper{
 		margin: 50px 0 0 0;
@@ -90,7 +90,8 @@
 	}
 }
 
-
-@media (576px <= width){
-
+@media (992px <= width <= 1920px){
+	.Stories-footer{
+		display: none;
+	}
 }

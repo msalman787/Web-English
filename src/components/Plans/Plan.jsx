@@ -24,7 +24,9 @@ export default function Plan (plan) {
           ))}
         </ul>
       </main>
-      <Button href={url} $secondary>ELEGIR ESTE PLAN</Button>
+      <section>
+        <Button href={url} $secondary>ELEGIR ESTE PLAN</Button>
+      </section>
     </article>
   )
 }

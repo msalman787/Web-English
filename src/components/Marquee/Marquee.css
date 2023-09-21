@@ -1,0 +1,13 @@
+.Marquee{
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+
+	background-color: var(--color-secondary);
+	color: var(--color-primary);
+}
+.Marquee-a{
+	text-decoration: underline;
+}

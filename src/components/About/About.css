@@ -37,7 +37,7 @@ hr{
 
 @media (width <= 576px){
 	.About{
-		margin: 3rem 0 0 0;
+		margin: 4rem 0 0 0;
 		width: 100%;
 	}
 	.About-item{
@@ -52,6 +52,10 @@ hr{
 	}
 	hr{
 		display: none;
+	}
+	.About-Button{
+		margin: 10px 0 0 0;
+		width: 100%;
 	}
 }
 @media (576px <= width <= 768){

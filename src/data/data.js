@@ -162,7 +162,7 @@ export const data = {
 			stage: 'Curso completo',
 			name: 'Platinum Package Plan',
 			description: 'Lorem ipsum dolor sit amet',
-			benefits: ['Obtén el Verb Tree Learning System en su totalidad.', 'El libro de actividades en PDF ', 'Acceso de por vida al curso completo', 'Acceso al grupo VIP de Telegram para practicar tu conversación', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente', 'Garantía de devolución de dinero de 60 días (valor de $60)'],
+			benefits: ['Obtén el Verb Tree Learning System en su totalidad.', 'Acceso de por vida al curso completo', 'Acceso al grupo VIP de Telegram para practicar tu conversación', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente', 'Garantía de devolución de dinero de 60 días (valor de $60)'],
 			url: 'https://gringolandiaeng.mysamcart.com/checkout/gringolandia-english-verb-tree-learning-system'
 		}
 	],
@@ -181,55 +181,3 @@ export const data = {
 		}
 	]
 }
-// {
-// 	id: 1,
-// 	comment: 'Kristian es un profesor muy dedicado que enfoca sus clases según las necesidades del alumno. Aprendí mucho con él, ya que sus clases son personalizadas y te explica con muy buenos ejemplos si no entiendes algo. El ambiente durante la clase favorece el aprendizaje. Además maneja muy bien el español por si es necesario explicar algo en profundidad. Completamente recomendado.',
-// 	user: 'Evelyn',
-// 	date: '27/01/2021'
-// },
-// {
-// 	id: 2,
-// 	comment: 'Buen profesor, al ser joven logra una mayor conexión y ambiente propicio con los alumnos universitarios, otorgando comodidad al momento de hablar en inglés. Además al ser un profesor bilingüe entiende las dudas e inquietudes de una forma superior al común, dando ejemplos de lo que correspondería cada frase, desarrollo de diálogos usuales en situaciones de conversación real, etc.',
-// 	user: 'Benjamín',
-// 	date: '27/01/2021'
-// },
-// {
-// 	id: 3,
-// 	comment: 'Most patient & thorough teacher I’ve ever had the pleasure of being taught by. Excellent at listening to your needs and where to help excel you the most. From music to language and beyond, he is simply the best!.',
-// 	user: 'Austin',
-// 	date: '27/01/2021'
-// },
-// {
-// 	id: 4,
-// 	comment: 'Excelente profesor, potencia todas las habilidades en inglés sin importar el nivel previo que uno tenga. Genera un ambiente cómodo y respetuoso, lo cual es importante al momento de desenvolverse en un idioma que no es el nativo de uno. Logra crear una clase entretenida acorde a los intereses personales.',
-// 	user: 'Sergio',
-// 	date: '27/01/2021'
-// },
-// {
-// 	id: 5,
-// 	comment: 'An excellent teacher, thanks to him my level of english improved significantly His classes are quite educational and entertaining.',
-// 	user: 'Sebastián',
-// 	date: '27/01/2021'
-// },
-// {
-// 	id: 6,
-// 	comment: 'Es un profesor que sabe como llegar al alumno haciendo clases didácticas y entretenidas que permiten una mejor comprensión de lo que se esta enseñando.',
-// 	user: 'Nicolás Velásquez',
-// 	date: '26/01/2021'
-// },
-// {
-// 	id: 7,
-// 	comment: 'Me gustó el uso de la música como herramienta tanto para el aprendizaje del alumno como para llamar su atención, haciendo mucho más dinámica la clase y creando un ambiente de aprendizaje recíproco tocando temas diversos y variados tanto de la cultura chilena como norteamericana.',
-// 	user: 'Luis',
-// 	date: '26/01/2021'
-// },
-// {
-// 	id: 8,
-// 	comment: 'Fue un profesor out profesional que siempre mantuvo el respeto y la buena convivencia en la sala, mantiene los reglamentos internos de la institución y no habla español a menos de que sea estrictamente necesario.',
-// 	user: 'Sebastian',
-// 	date: '26/01/2021'
-// },
-// {
-// 	id: 9,
-// 	comment: 'Fue un profesor out profesional que siempre mantuvo el respeto y la buena convivencia en la sala, mantiene los reglamentos internos de la institución y no habla español a menos de que sea estrictamente necesario.',
-// 	user: 'Sebastian',

@@ -58,10 +58,10 @@ export function Stages () {
               spaceBetween: 30,
               slidesPerGroup: 2
             },
-            992: {
+            1440: {
               slidesPerView: 3,
               spaceBetween: 30,
-              slidesPerGroup: 4
+              slidesPerGroup: 3
             }
           }}
           freeMode

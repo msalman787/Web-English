@@ -29,7 +29,7 @@
 
 @media (width <= 576px){
 	.Call{
-		margin: 3rem 0 0 0;
+		margin: 4rem 0 0 0;
 		padding: 40px 15px 0 15px;
 		display: flex;
 		flex-direction: column;
@@ -47,7 +47,7 @@
 }
 @media (576px <= width <= 992px){
 	.Call{
-		margin: 3rem 0 0 0;
+		margin: 4rem 0 0 0;
 		padding: 40px 15px 0 15px;
 		display: flex;
 		flex-direction: column;
@@ -62,5 +62,10 @@
 		overflow: hidden;
 		object-fit: cover;
 		object-position: top;
+	}
+}
+@media (992px <= width <= 1920px){
+	.Call{
+		padding: 2.7rem 2rem 0 2rem;
 	}
 }
