@@ -26,7 +26,7 @@ export function Stages () {
 
   return (
     <>
-      <section className='Stages'>
+      <section className='Stages' id='stages'>
         <Titles title='Etapas del curso' />
         <p>12 Etapas para principiantes con los videos y actividades que necesitas para ser exitoso en el Ingles.</p>
       </section>

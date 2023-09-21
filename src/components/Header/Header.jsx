@@ -9,7 +9,7 @@ export function Header () {
     <header className='Header'>
       <Logo size='sm' />
       <NavBar />
-      <Button href='mailto:gringolandiaenglish@gmail.com' $secondary>HABLEMOS</Button>
+      <Button className='Header-button' href='mailto:gringolandiaenglish@gmail.com' $secondary>HABLEMOS</Button>
     </header>
   )
 }

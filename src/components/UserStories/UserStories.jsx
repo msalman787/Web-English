@@ -11,7 +11,7 @@ export function UserStories () {
   const { comments } = data
   return (
     <>
-      <section className='Stories'>
+      <section className='Stories' id='userStories'>
         <section className='Stories-left'>
           <Titles title='Lo que dicen mis estudiantes' />
           <p className='Stories-p'>Nada es más poderoso que el testimonio de quienes han caminado por el mismo camino que estás a punto de emprender.

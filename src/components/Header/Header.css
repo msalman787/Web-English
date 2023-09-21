@@ -12,14 +12,8 @@
 
 
 @media (width <= 576px){
-	.Nav{
-		display: none;
-	}
 }
 @media (576px <= width <= 992px){
-	.Nav{
-		display: none;
-	}
 }
 @media (992px <= width <= 1920px){
 
