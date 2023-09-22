@@ -26,13 +26,23 @@
 .Nav-button{
 	display: none;
 }
+.Nav-header{
+	display: none;
+}
+.Nav-footer{
+	display: none;
+}
 
 
 @media (width <= 992px){
 	.Nav-header{
+		display: block;
 		padding: 1rem;
 		display: flex;
 		justify-content: space-between;
+	}
+	.Nav-footer{
+		display: block;
 	}
 	.Nav{
 		opacity: 0;
@@ -63,7 +73,7 @@
 	transition: all 0.5s ease-in-out;
 	}
 	.Nav-content{
-		margin: 0 0 3rem 0;
+		margin: 0 0 3rem;
 	}
 
 	.Nav-ul{
