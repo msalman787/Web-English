@@ -1,13 +1,20 @@
 import React from 'react'
-import './Plan.css'
 import { Button } from '../ui/Button'
 import Benefit from './Benefit'
+import { motion } from 'framer-motion'
+import './Plan.css'
 
 export default function Plan (plan) {
-  const { plan: { price, name, description, benefits, stage, url } } = plan
+  const { plan: { price, name, benefits, stage, url } } = plan
 
   return (
-    <article className='Plan'>
+    <motion.article
+      whileTap={{
+        scale: 0.8,
+        transition: { duration: 1 }
+      }}
+      className='Plan'
+    >
       <header className='Plan-header'>
         <h3>{name}</h3>
         <div>
@@ -27,6 +34,6 @@ export default function Plan (plan) {
       <section>
         <Button href={url} $secondary>ELEGIR ESTE PLAN</Button>
       </section>
-    </article>
+    </motion.article>
   )
 }
