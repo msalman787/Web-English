@@ -39,9 +39,9 @@ export function UserStories () {
                 slidesPerGroup: 1
               },
               768: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 30,
-                slidesPerGroup: 2
+                slidesPerGroup: 1
               },
               992: {
                 slidesPerView: 3,

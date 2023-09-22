@@ -1,5 +1,18 @@
 .Header{
 	display: flex;
+	flex-direction: column;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 3;
+	position: sticky;
+	background-color: #ffffffb1;
+}
+
+.Header-container{
+	padding: 25px 270px 40px 270px;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -12,9 +25,26 @@
 
 
 @media (width <= 576px){
+	.Header-container{
+		margin: 0;
+		padding: 1rem;
+	}
+	.Header-button{
+		display: none;
+	}
 }
 @media (576px <= width <= 992px){
+	.Header-container{
+		margin: 0;
+		padding: 2rem;
+	}
+	.Header-button{
+		display: none;
+	}
 }
-@media (992px <= width <= 1920px){
-
+@media (992px <= width <= 1440px){
+	.Header-container{
+		margin: 0;
+		padding: 0.75rem 4rem 1.25rem 4rem;
+	}
 }
