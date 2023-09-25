@@ -82,9 +82,9 @@ export function Stages () {
       </div>
       <section className='Stages-footer'>
         <div className='Stages-footer-buttons'>
-          <button onClick={backTo} className='Stages-footer-button'><img src={glArrows} /></button>
+          <button onClick={backTo} className='Stages-footer-button'><img width='36px' height='36px' src={glArrows} alt='Icono hacia atras' /></button>
           <div className='swiper-scrollbar' />
-          <button onClick={nextTo} className='Stages-footer-button button-right'><img src={glArrows} /></button>
+          <button onClick={nextTo} className='Stages-footer-button button-right'><img width='36px' height='36px' src={glArrows} alt='Icono hacia delante' /></button>
         </div>
       </section>
     </>

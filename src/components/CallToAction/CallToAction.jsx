@@ -14,7 +14,7 @@ export function CallToAction () {
         </div>
         <Button aria-label='Abrir link' href='#plans' $primary>OBTENER OFERTA</Button>
       </section>
-      <img className='Call-img' src={mobileCourse} alt='Imagen de celular mostrando el curso Gringolandía' />
+      <img width='428.50px' height='538.81px' className='Call-img' src={mobileCourse} alt='Imagen de celular mostrando el curso Gringolandía' />
     </section>
   )
 }
