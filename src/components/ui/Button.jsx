@@ -41,5 +41,8 @@ ${props => props.$secondary && `
     width: inherit;
     text-align: center;
   }
+  @media (width >= 992px){
+    width: fit-content
+  }
 
 `

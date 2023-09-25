@@ -45,6 +45,10 @@
 	height: fit-content!important;
 }
 
+.Stories-button{
+	display: none;
+}
+
 @media (width <= 576px){
 	.Stories{
 		margin: 4rem 0 0 0;
@@ -64,6 +68,9 @@
 	}
 	.Stories-web{
 		display: none;
+	}
+	.Stories-button{
+		display: block;
 	}
 }
 @media (576px <= width <= 992px){
@@ -90,6 +97,9 @@
 		display: none;
 	}
 	.Stories-footer{
+		display: block;
+	}
+	.Stories-button{
 		display: block;
 	}
 }
