@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:svgjs="http://svgjs.com/svgjs" width="1000" height="1000">
-	<rect width="64" height="64" rx="500" ry="500" fill="#ffffff"></rect>
+	<rect width="100" height="100" rx="500" ry="500" fill="#ffffff"></rect>
 	<g transform="matrix(11.428571428571429,0,0,11.428571428571429,100,100)"><svg xmlns="http://www.w3.org/2000/svg"
 			version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="70"
-			height="70"><svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg"
+			height="64"><svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg"
 				xmlns:xlink="http://www.w3.org/1999/xlink">
 				<rect width="70" height="70" fill="url(#pattern0)"></rect>
 				<defs>
