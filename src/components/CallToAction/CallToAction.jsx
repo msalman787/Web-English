@@ -1,8 +1,8 @@
 import React from 'react'
 import { Button } from '../ui/Button'
-import './CallToAction.css'
-import mobileCourse from '../../assets/img/gl_mobile-calltoaction.png'
 import { Titles } from '../Titles/Titles'
+import mobileCourse from '../../assets/img/gl_mobile-calltoaction.webp'
+import './CallToAction.css'
 
 export function CallToAction () {
   return (

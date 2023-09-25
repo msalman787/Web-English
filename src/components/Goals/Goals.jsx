@@ -1,4 +1,4 @@
-import girlNotebook from '../../assets/img/gl_girl-notebook.jpg'
+import girlNotebook from '../../assets/img/gl_girl-notebook.webp'
 import { Titles } from '../Titles/Titles'
 import { Goal } from './Goal'
 import { data } from '../../data/data.js'
