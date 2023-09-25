@@ -14,7 +14,7 @@ export function Goals () {
           {goals.map(goal => <Goal key={goal.id} fact={goal.fact} />)}
         </ul>
       </section>
-      <img width='24px' height='24px' className='Goals-img' src={girlNotebook} alt='Mujer sentada en el piso utilizando una notebook' />
+      <img width='605px' height='700px' className='Goals-img' src={girlNotebook} alt='Mujer sentada en el piso utilizando una notebook' />
     </section>
   )
 }

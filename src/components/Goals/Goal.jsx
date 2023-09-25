@@ -4,7 +4,7 @@ import './Goal.css'
 export function Goal ({ fact }) {
   return (
     <section className='Goal'>
-      <img src={goalIcon} alt='Icono de goal' />
+      <img width='24px' height='24px' src={goalIcon} alt='Icono de goal' />
       <p>
         {fact}
       </p>
