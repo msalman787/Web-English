@@ -6,7 +6,7 @@ import { Stage } from './Stage'
 import { data } from '../../data/data.js'
 import { Titles } from '../Titles/Titles'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay, FreeMode, Scrollbar } from 'swiper/modules'
+import { FreeMode, Scrollbar } from 'swiper/modules'
 import glArrows from '../../assets/icons/gl_arrows.svg'
 import 'swiper/css/scrollbar'
 import 'swiper/css'
@@ -32,11 +32,7 @@ export function Stages () {
       </section>
       <div className='Swiper-container swiper mySwiper'>
         <Swiper
-          modules={[Autoplay, FreeMode, Scrollbar]}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false
-          }}
+          modules={[FreeMode, Scrollbar]}
           slidesPerView={3}
           spaceBetween={30}
           slidesPerGroup={4}
@@ -48,7 +44,12 @@ export function Stages () {
             dragSize: 100
           }}
           breakpoints={{
-            300: {
+            200: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+              slidesPerGroup: 1
+            },
+            400: {
               slidesPerView: 1,
               spaceBetween: 30,
               slidesPerGroup: 1

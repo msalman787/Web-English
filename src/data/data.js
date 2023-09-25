@@ -140,6 +140,15 @@ export const data = {
 	plans: [
 		{
 			id: 1,
+			price: 97,
+			stage: 'Curso completo',
+			name: 'Platinum Package Plan',
+			description: 'Lorem ipsum dolor sit amet',
+			benefits: ['Obtén el Verb Tree Learning System en su totalidad.', 'Acceso de por vida al curso completo', 'Acceso al grupo VIP de Telegram para practicar tu conversación', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente', 'Garantía de devolución de dinero de 60 días (valor de $60)'],
+			url: 'https://gringolandiaeng.mysamcart.com/checkout/gringolandia-english-verb-tree-learning-system'
+		},
+		{
+			id: 2,
 			price: 10,
 			stage: 'Etapa',
 			name: 'Basic plan',
@@ -148,22 +157,13 @@ export const data = {
 			url: 'https://gringolandiaeng.samcart.com/products/verb-tree-learning-system-basic-1/'
 		},
 		{
-			id: 2,
+			id: 3,
 			price: 8.5,
 			stage: 'Mensural',
 			name: 'Classic plan',
 			description: 'Lorem ipsum dolor sit amet',
 			benefits: ['Obtén el Verb Tree Learning System en su totalidad.', 'El libro de actividades en PDF.', 'Acceso a 2 etapas por mes', 'Accede al grupo VIP de Telegram para practicar tu conversación', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente.'],
 			url: 'https://gringolandiaeng.mysamcart.com/checkout/platinum-package-payment-plan'
-		},
-		{
-			id: 3,
-			price: 97,
-			stage: 'Curso completo',
-			name: 'Platinum Package Plan',
-			description: 'Lorem ipsum dolor sit amet',
-			benefits: ['Obtén el Verb Tree Learning System en su totalidad.', 'Acceso de por vida al curso completo', 'Acceso al grupo VIP de Telegram para practicar tu conversación', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente', 'Garantía de devolución de dinero de 60 días (valor de $60)'],
-			url: 'https://gringolandiaeng.mysamcart.com/checkout/gringolandia-english-verb-tree-learning-system'
 		}
 	],
 	goals: [

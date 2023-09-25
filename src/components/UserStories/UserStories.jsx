@@ -5,7 +5,7 @@ import { data } from '../../data/data.js'
 
 import './UserStories.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay } from 'swiper/modules'
+import { Autoplay, Grid } from 'swiper/modules'
 
 export function UserStories () {
   const { comments } = data
@@ -24,29 +24,26 @@ export function UserStories () {
         <section className='Stories-right'>
           <Swiper
             modules={[Autoplay]}
-            className='mySwiper myswiper Swiper-users'
+            className='Swiper-users'
             direction='vertical'
             slidesPerView={2}
-            spaceBetween={20}
-            slidesPerGroup={1}
+            spaceBetween={10}
+            slidesPerGroup={2}
             autoplay={{
-              delay: 4000
+              delay: 4000,
+              pauseOnMouseEnter: true
             }}
+            loop
             breakpoints={{
               300: {
-                slidesPerView: 1,
-                spaceBetween: 30,
-                slidesPerGroup: 1
-              },
-              768: {
-                slidesPerView: 1,
-                spaceBetween: 30,
+                slidesPerView: 2,
+                spaceBetween: 10,
                 slidesPerGroup: 1
               },
               992: {
                 slidesPerView: 3,
-                spaceBetween: 30,
-                slidesPerGroup: 4
+                spaceBetween: 10,
+                slidesPerGroup: 3
               }
             }}
           >

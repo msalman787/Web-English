@@ -12,9 +12,7 @@ export function CallToAction () {
           <Titles title='Aprovecha este descuento especial y aprende inglés de forma accesible' />
           <p>Conquista el inglés y alcanza tus metas con nuestra metodología: <strong>Verb tree learning system</strong></p>
         </div>
-        <section>
-          <Button href='#plans' $primary>OBTENER OFERTA</Button>
-        </section>
+        <Button href='#plans' $primary>OBTENER OFERTA</Button>
       </section>
       <img className='Call-img' src={mobileCourse} alt='Imagen de celular mostrando el curso Gringolandía' />
     </section>

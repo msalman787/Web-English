@@ -7,6 +7,7 @@
 
 	display: flex;
 	justify-content: space-between;
+	gap: 30px;
 
 	border-radius: var(--border-radius-secondary);
 	color: var(--color-primary);
@@ -44,6 +45,9 @@
 		object-fit: cover;
 		object-position: top;
 	}
+	.Call-button{
+		width: 100%;
+	}
 }
 @media (576px <= width <= 992px){
 	.Call{
@@ -63,9 +67,13 @@
 		object-fit: cover;
 		object-position: top;
 	}
+	.Call-button{
+		width: 200rem;
+	}
 }
 @media (992px <= width <= 1920px){
 	.Call{
 		padding: 2.7rem 2rem 0 2rem;
 	}
+
 }

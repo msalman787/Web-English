@@ -1,7 +1,9 @@
 .User{
 	padding: 25px 30px;
+	/* height: 400px; */
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	gap: 20px;
 	border-radius: 15px;
 	background: var(--White, #FFF);

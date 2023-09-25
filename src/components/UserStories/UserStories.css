@@ -8,7 +8,7 @@
 .Stories-left{
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 1.875rem;
 	width: 80%;
 }
 
@@ -21,6 +21,7 @@
 
 .Stories-right{
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 700px;
 }
@@ -31,7 +32,10 @@
 	padding: 1.5rem;
 }
 .swiper-slide-users{
+	height: 100%;
+	cursor: cell;
 	width: 100%;
+	padding: 0.7rem 1rem 0.7rem 1rem;
 }
 .swiper-slide{
 	height: 100%;
