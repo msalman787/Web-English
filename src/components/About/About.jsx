@@ -19,7 +19,7 @@ export default function About () {
           <p>Era septiembre de 2021, en Concón Chile en pleno corazón de la pandemia. Tenía el corazón roto y solo en mi pequeña cabaña junto a la playa con mi gato. Había estado enseñando a estudiantes en línea desde marzo de 2020 ya que no podíamos salir de nuestras casas y toda la enseñanza se movía en línea.</p>
           <p>Ya no sentía que podía ayudar a mis alumnos de la escuela y de la academia con el material que me entregaban a través de las instituciones. “Cállate y sigue el programa” era el mantra que escuchaba en el entorno escolar tradicional y sabía que tenía que haber otra manera.</p>
           <div className='About-button'>
-            <Button href='https://gringolandiaenglis.wixsite.com/freeclass' target='no_blank' $secondary>GRUPO VIP DE TELEGRAM</Button>
+            <Button aria-label='Abrir link' href='https://gringolandiaenglis.wixsite.com/freeclass' target='no_blank' $secondary>GRUPO VIP DE TELEGRAM</Button>
           </div>
         </main>
       </article>

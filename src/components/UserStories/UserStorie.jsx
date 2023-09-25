@@ -5,7 +5,7 @@ import './UserStorie.css'
 export function UserStorie ({ id, comment, user, date }) {
   return (
     <article className='User'>
-      <img className='User-svg' src={comillasSVG} />
+      <img className='User-svg' src={comillasSVG} alt='Icono de comillas' />
       <p>{comment}</p>
       <section className='User-container'>
         <p className='User-name'>{user}</p>

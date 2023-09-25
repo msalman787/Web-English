@@ -32,7 +32,7 @@ export default function Plan (plan) {
         </ul>
       </main>
       <section>
-        <Button href={url} $secondary>ELEGIR ESTE PLAN</Button>
+        <Button aria-label='Abrir link' href={url} $secondary>ELEGIR ESTE PLAN</Button>
       </section>
     </motion.article>
   )

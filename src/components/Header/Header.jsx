@@ -12,7 +12,7 @@ export function Header () {
       <section className='Header-container'>
         <Logo size='sm' />
         <NavBar />
-        <Button className='Header-button' href='mailto:gringolandiaenglish@gmail.com' $secondary>HABLEMOS</Button>
+        <Button aria-label='Abrir link' className='Header-button' href='mailto:gringolandiaenglish@gmail.com' $secondary>HABLEMOS</Button>
       </section>
     </header>
   )

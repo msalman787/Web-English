@@ -59,7 +59,7 @@ export function UserStories () {
           </Swiper>
         </section>
         <section className='Stories-footer'>
-          <Button href='#plans' $secondary>OBTENER CURSO</Button>
+          <Button aria-label='Abrir Link' href='#plans' $secondary>OBTENER CURSO</Button>
         </section>
       </section>
     </>
