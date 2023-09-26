@@ -163,7 +163,8 @@ export const data = {
 			name: 'Classic plan',
 			description: 'Lorem ipsum dolor sit amet',
 			benefits: ['Obtén el Verb Tree Learning System en su totalidad.', 'El libro de actividades en PDF.', 'Acceso a 2 etapas por mes', 'Accede al grupo VIP de Telegram para practicar tu conversación', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente.'],
-			url: 'https://gringolandiaeng.mysamcart.com/checkout/platinum-package-payment-plan'
+			url: 'https://gringolandiaeng.samcart.com/products/platinum-package-payment-plan/'
+			
 		}
 	],
 	goals: [
