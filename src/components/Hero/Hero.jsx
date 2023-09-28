@@ -15,7 +15,7 @@ export function Hero () {
       </video>
       <section className='Hero-after'>
         <a href='https://gringolandiaeng.mysamcart.com/checkout/gringolandia-english-verb-tree-learning-system' className='Hero-after--a'>
-          Aprende inglés y desbloquea nuevas oportunidades globales.
+          Empieza ahora
         </a>
       </section>
     </section>
