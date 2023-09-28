@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import './Plan.css'
 
 export default function Plan (plan) {
-  const { plan: { price, name, benefits, stage, url } } = plan
+  const { plan: { price, name, benefits, stage, url, mode } } = plan
 
   return (
     <motion.article
@@ -32,7 +32,7 @@ export default function Plan (plan) {
         </ul>
       </main>
       <section>
-        <Button aria-label='Abrir link' href={url} $secondary>ELEGIR ESTE PLAN</Button>
+        <Button aria-label='Abrir link' href={url} $secondary>ELEGIR ESTE {mode}</Button>
       </section>
     </motion.article>
   )

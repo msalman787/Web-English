@@ -14,7 +14,8 @@
 }
 
 .About-item h4{
-	font-weight: bold;
+	font-weight: 700;
+	font-family: 'MontserratBold';
 }
 
 .About-main{
