@@ -6,7 +6,7 @@ export default function About () {
   return (
     <section className='About'>
       <article className='About-item'>
-        <h4>Hi, im Kristian Silva</h4>
+        <h4>Hi, I'm Kristian Silva</h4>
         <main className='About-main'>
           <p>¡Gracias por visitar nuestra página, me alegro de que estés aquí! ¿Alguna vez has sentido que estás "dando vueltas" con tu práctica de inglés? (perdiendo el tiempo.) ¿Quieres dominar el idioma inglés? ¿Quieres la base que todos los estudiantes necesitan para hablar con fluidez? o ¿Simplemente quieres aprender un segundo idioma para crecer como persona y transformar tu vida?</p>
           <p>Si este es tu caso, ha venido al lugar correcto. Estamos dedicados a brindarle al estudiante el aprendizaje más accesible, al mejor valor posible en el mercado actual. Hemos creado un curso para ti que está diseñado para ayudar a todos los estudiantes principiantes e intermedios a lograr la certeza y la fluidez que muchos estudiantes buscan en sus habilidades en el idioma inglés hoy.</p>
