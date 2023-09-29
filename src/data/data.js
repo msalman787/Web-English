@@ -163,7 +163,7 @@ export const data = {
 			price: 10,
 			stage: '/Etapa',
 			name: 'Basic',
-			mode: 'PLAN',
+			mode: 'PAQUETE',
 			description: 'Lorem ipsum dolor sit amet',
 			benefits: ['1 etapa del Verb Tree Learning System', 'Acceso al grupo VIP de Telegram para practicar tu conversación.', 'Acceso a todas las actividades con descarga', 'Acceso para unirte a nuestras sesiones gratuitas de escucha en vivo de 1 hora conmigo directamente', 'Puede actualizar al Platinum Package en cualquier momento'],
 			url: 'https://gringolandiaeng.samcart.com/products/verb-tree-learning-system-basic-1/'
