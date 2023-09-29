@@ -9,7 +9,7 @@ export function Hero () {
       <div className='Hero-h2'>
         <Titles title='Explora el mundo a través del ingles: Aprende, conecta, crece.' />
       </div>
-      <video className='Hero-video' autoPlay loop muted aria-label='Video'>
+      <video className='Hero-video' autoPlay loop autoplay muted playsinline aria-label='Video'>
         <source src={videoHero} type='video/mp4' />
         Tu navegador no es compatible con videos HTML5
       </video>
