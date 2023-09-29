@@ -19,7 +19,7 @@ export default function Plan (plan) {
         <h3>{name}</h3>
         <div>
           <p>${price}</p>
-          <span>/{stage}</span>
+          <span>{stage}</span>
         </div>
       </header>
       <hr />

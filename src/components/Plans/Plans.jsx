@@ -12,7 +12,8 @@ export function Plans () {
   const { plans } = data
   return (
     <>
-      <section className='Plans-title' id='plans'>
+      <section id='plans' />
+      <section className='Plans-title'>
         <div>
           <Titles title='Hay un plan perfecto para ti' />
         </div>

@@ -26,16 +26,17 @@ export function Stages () {
 
   return (
     <>
-      <section className='Stages' id='stages'>
+      <section id='stages' />
+      <section className='Stages'>
         <Titles title='Etapas del curso' />
         <p>12 Etapas para principiantes con los videos y actividades que necesitas para ser exitoso en el Ingles.</p>
       </section>
       <div className='Swiper-container swiper mySwiper'>
         <Swiper
           modules={[FreeMode, Scrollbar]}
-          slidesPerView={3}
-          spaceBetween={30}
-          slidesPerGroup={4}
+          // slidesPerView={3}
+          // spaceBetween={30}
+          // slidesPerGroup={4}
           watchSlidesProgress
           scrollbar={{
             el: '.swiper-scrollbar',
@@ -51,7 +52,7 @@ export function Stages () {
             },
             400: {
               slidesPerView: 1,
-              spaceBetween: 30,
+              spaceBetween: 10,
               slidesPerGroup: 1
             },
             768: {
