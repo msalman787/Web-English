@@ -1,7 +1,7 @@
 .Layout{
-	padding: 25px 270px 40px 270px;
+	padding: 1rem;
 }
-
+/* 25px 270px 40px 270px */
 
 @media (width <= 576px){
 	.Layout{
