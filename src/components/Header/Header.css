@@ -24,7 +24,7 @@
 }
 
 
-@media (100px <= width <= 576px){
+@media (max-width: 576px){
 	.Header-container{
 		margin: 0;
 		padding: 1rem;
@@ -33,7 +33,7 @@
 		display: none;
 	}
 }
-@media (576px <= width <= 992px){
+@media (min-width: 576px) and (max-width: 992px){
 	.Header-container{
 		margin: 0;
 		padding: 5px 2rem 5px 32px;
@@ -42,7 +42,7 @@
 		display: none;
 	}
 }
-@media (992px <= width <= 1440px){
+@media (min-width: 992px) and (max-width: 1440px){
 	.Header-container{
 		margin: 0;
 		padding: 0.75rem 4rem 5px 4rem;

@@ -1,24 +1,24 @@
 
 
-@media (100px <= width <= 576px){
+@media (max-width: 576px){
 	.Layout{
 		margin: 0;
 		padding: 1rem;
 	}
 }
-@media (576px <= width <= 992px){
+@media (min-width: 576px) and (max-width: 992px){
 	.Layout{
 		margin: 0;
 		padding: 2rem;
 	}
 }
-@media (992px <= width <= 1440px){
+@media (min-width: 992px) and (max-width: 1440px){
 	.Layout{
 		margin: 0;
 		padding: 0.75rem 4rem 1.25rem 4rem;
 	}
 }
-@media ( width >= 1440px){
+@media ( min-width: 1440px){
 	.Layout{
 		margin: 0;
 		padding: 25px 270px 40px 270px;

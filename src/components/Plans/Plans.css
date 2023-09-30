@@ -20,7 +20,7 @@
 	width: 100%;
 }
 
-@media (100px <= width <= 576px){
+@media (max-width: 576px){
 	.Plans-title{
 		margin: 4rem 0 0 0;
 		display: flex;
@@ -28,7 +28,7 @@
 		gap: 2rem;
 	}
 }
-@media (992px <= width <= 1920px){
+@media (min-width: 992px) and (max-width: 1920px){
 	.Plans-title{
 		margin: var(--margin-sections) 0 0 0;
 	

@@ -34,7 +34,7 @@
 }
 
 
-@media (100px <= width <= 992px){
+@media (max-width: 992px){
 	.Nav-header{
 		display: block;
 		padding: 1rem;
@@ -59,14 +59,7 @@
 		width: 100vw;
 		height: 100vh;
 	}
-	/* .Nav-close{
-		display: block;
-		text-align: center;
-		position: absolute;
-		top: 0;
-		right: 0;
-		padding: 0;
-	} */
+
 	.Nav-visible{
 	opacity: 1;
 	visibility: visible;
@@ -94,9 +87,5 @@
 	.Nav-li--a{
 		font-weight: 500;
 	}
-
-}
-
-@media (992px <= width <= 1440px){
 
 }

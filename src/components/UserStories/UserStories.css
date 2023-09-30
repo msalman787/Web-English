@@ -49,7 +49,7 @@
 	display: none;
 }
 
-@media (100px <= width <= 576px){
+@media (max-width: 576px){
 	.Stories{
 		margin: 4rem 0 0 0;
 		display: flex;
@@ -73,7 +73,7 @@
 		display: block;
 	}
 }
-@media (576px <= width <= 992px){
+@media (min-width: 576px) and (max-width: 992px){
 	.Stories{
 		margin: 4rem 0 0 0;
 		display: flex;
@@ -104,7 +104,7 @@
 	}
 }
 
-@media (992px <= width <= 1920px){
+@media (min-width: 992px){
 	.Stories-footer{
 		display: none;
 	}

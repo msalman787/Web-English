@@ -6,21 +6,9 @@
 }
 
 
-@media(100px <= width <= 576px){
+@media(max-width: 576px){
 	.Titles{
 		font-size: var(--font-size-mobile-h2);
 		line-height: 30px;
 	}
-}
-@media (576px <= width <= 768){
-
-}
-@media (768px <= width <= 992){
-	
-}
-@media (992px <= width <= 1200){
-	
-}
-@media ( width > 1200){
-	
 }

@@ -39,7 +39,7 @@ hr{
 }
 
 
-@media (100px <= width <= 576px){
+@media (max-width: 576px){
 	.About{
 		margin: 4rem 0 0 0;
 		width: 100%;
@@ -65,7 +65,7 @@ hr{
 		width: 100%;
 	}
 }
-@media (576px <= width <= 992px){
+@media (min-width: 576px) and (max-width: 992px){
 	.About-button{
 		display: none;
 	}
