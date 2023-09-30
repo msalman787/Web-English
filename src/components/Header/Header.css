@@ -35,6 +35,7 @@
 }
 @media (576px <= width <= 992px){
 	.Header-container{
+		background-color: aqua;
 		margin: 0;
 		padding: 5px 2rem 5px 32px;
 	}
