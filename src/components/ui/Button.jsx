@@ -37,11 +37,11 @@ ${props => props.$secondary && `
   cursor: pointer;
   font-weight: bold;
 
-  @media (width <= 992px){
+  @media (max-width: 992px){
     width: inherit;
     text-align: center;
   }
-  @media (width >= 992px){
+  @media (min-width: 922px){
     width: fit-content
   }
 
