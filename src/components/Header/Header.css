@@ -24,7 +24,7 @@
 }
 
 
-@media (width <= 576px){
+@media (100px <= width <= 576px){
 	.Header-container{
 		margin: 0;
 		padding: 1rem;

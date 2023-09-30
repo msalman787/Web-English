@@ -25,7 +25,7 @@
 	border-radius: 10px;
 }
 
-@media (width <= 576px){
+@media (100px <= width <= 576px){
 	.Goals{
 		margin: 0rem 0 0 0;
 		display: flex;

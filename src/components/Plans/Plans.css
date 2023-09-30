@@ -20,7 +20,7 @@
 	width: 100%;
 }
 
-@media (width <= 576px){
+@media (100px <= width <= 576px){
 	.Plans-title{
 		margin: 4rem 0 0 0;
 		display: flex;

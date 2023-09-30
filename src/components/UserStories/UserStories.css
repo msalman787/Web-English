@@ -49,7 +49,7 @@
 	display: none;
 }
 
-@media (width <= 576px){
+@media (100px <= width <= 576px){
 	.Stories{
 		margin: 4rem 0 0 0;
 		display: flex;

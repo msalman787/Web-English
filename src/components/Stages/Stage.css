@@ -43,10 +43,3 @@
 	font-weight: bold;
 	text-decoration: underline;
 }
-
-@media (width <= 576px){
-
-}
-@media (576px <= width <= 992px){
-
-}

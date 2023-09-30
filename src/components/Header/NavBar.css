@@ -34,7 +34,7 @@
 }
 
 
-@media (width <= 992px){
+@media (100px <= width <= 992px){
 	.Nav-header{
 		display: block;
 		padding: 1rem;

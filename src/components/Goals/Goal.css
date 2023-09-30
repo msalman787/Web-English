@@ -7,7 +7,7 @@
 	gap: 20px;
 }
 
-@media (width <= 576px){
+@media (100px <= width <= 576px){
 	.Goal{
 		font-size: var(--font-size-mobile);
 	}

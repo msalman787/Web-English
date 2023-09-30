@@ -39,7 +39,7 @@ hr{
 }
 
 
-@media (width <= 576px){
+@media (100px <= width <= 576px){
 	.About{
 		margin: 4rem 0 0 0;
 		width: 100%;
