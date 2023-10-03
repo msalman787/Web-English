@@ -9,6 +9,7 @@
 }
 .Nav-li{
 	padding: 5px 16px;
+	cursor: pointer;
 }
 .Nav-li:hover{
 	background-color: var(--color-tertiary);
