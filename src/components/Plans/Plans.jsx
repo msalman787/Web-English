@@ -37,7 +37,7 @@ export function Plans () {
               spaceBetween: 30,
               slidesPerGroup: 1
             },
-            1400: {
+            1600: {
               slidesPerView: 3,
               spaceBetween: 30,
               slidesPerGroup: 1
