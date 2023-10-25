@@ -1,8 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  ⚡ Gringolandia
+> Venta de productos para aprender Inglés
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installing / Getting started
+
+Configuración mínima
+
+```shell
+comandos aquí! 👇🏽
+
+npm install
+npm run dev
+```
+
+Deploy en local
+
+## Developing
+
+### Technologies / Built With
+- 🏗  Vite
+- ✨ Node.js
+- 💣 React
+
+### Dependencies / Prerequisites
+
+- react
+- vite
+- Swiper
+- Styled Components
+- Framer Motion
+
+### Setting up Dev
+Modificar proyecto
+
+```shell
+git clone https://github.com/raamgonzalez/tente-lab.git
+cd tente-lab/
+code .
+```
+
+# Produced
+- [@raamgonzalez](https://github.com/raamgonzalez)
+
