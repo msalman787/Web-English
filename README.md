@@ -31,14 +31,6 @@ Deploy en local
 - Styled Components
 - Framer Motion
 
-### Setting up Dev
-Modificar proyecto
-
-```shell
-git clone https://github.com/raamgonzalez/tente-lab.git
-cd tente-lab/
-code .
-```
 
 # Produced
 - [@raamgonzalez](https://github.com/raamgonzalez)
